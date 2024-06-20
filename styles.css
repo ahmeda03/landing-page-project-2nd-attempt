@@ -6,6 +6,7 @@ body {
 
 .hero-section {
     background-color: #1F2937;
+    padding: 32px;
 }
 
 .header-section {
@@ -80,4 +81,39 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.images-container {
+    display: flex;
+}
+
+.info-img-placeholder {
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 8px;
+    /* height: auto; */
+    /* background-color: red; */
+    border: 2px solid blue;
+}
+
+.info-img-container {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+
+.info-img-text {
+    font-size: 10px;
+    text-align: center;
+}
+
+.images-container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.info-section-title {
+    text-align: center;
 }
