@@ -149,3 +149,46 @@ button {
     font-weight: bold;
     width: 800px;
 }
+
+.banner-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    background-color: #3882F6;
+    width: 800px;
+    margin: 40px;
+    border-radius: 8px;
+    padding: 20px;
+
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+}
+
+.banner-title, .banner-sub-text {
+    /* flex: 1; */
+    color: #F9FAF8;
+}
+
+.banner-title {
+    font-weight: bold;
+}
+
+.banner-sub-text {
+    font-size: 12px;
+}
+
+.banner-text-container {
+    display: flex; 
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
