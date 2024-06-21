@@ -2,11 +2,14 @@
 
 body {
     font-family: sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .hero-section {
     background-color: #1F2937;
     padding: 32px;
+    padding-top: 0;
 }
 
 .header-section {
@@ -119,7 +122,7 @@ button {
 }
 
 .info-section {
-    padding: 40px 32px;
+    padding: 24px;
 }
 
 .quote-section {
@@ -191,4 +194,14 @@ button {
 p {
     margin: 0;
     padding: 0;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1F2937;
+    padding: 24px;
+    color: #F9FAF8;
 }
