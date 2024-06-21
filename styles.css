@@ -55,7 +55,15 @@ button {
     border-radius: 8px;
     padding: 3px 20px;
     color: #F9FAF8;
+    border: 1px solid white;
 
+}
+
+.hero-button {
+    padding: 5px 25px;
+    border: none;
+    font-weight: bold;
+    margin-top: 5px;
 }
 
 .main-hero-section {
@@ -71,6 +79,7 @@ button {
     /* flex: 0; */
     margin: 20px;
     margin-right: 0;
+    gap: 5px;
 }
 
 .hero-img-placeholder {
@@ -164,7 +173,7 @@ button {
     width: 800px;
     margin: 40px;
     border-radius: 8px;
-    padding: 20px;
+    padding: 40px 20px;
 
     display: flex;
     /* flex-direction: column; */
