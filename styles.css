@@ -117,3 +117,35 @@ button {
 .info-section-title {
     text-align: center;
 }
+
+.info-section {
+    padding: 40px 32px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    background-color: #E5E7EB;
+    padding: 40px 32px;
+    /* width: 800px; */
+    
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic; 
+    margin: 0;
+    /* flex: 1; */
+    width: 800px;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    width: 800px;
+}
